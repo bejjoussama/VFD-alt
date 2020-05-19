@@ -10,6 +10,7 @@ int phaseCNeg[] = {170, 85, 0, 0, 0, 85};
 
 void setup()
 {
+    /*TIMER1 Config*/
     TCCR1A = 0b10100001;
     TCCR1B = 0b00000001;
     TIMSK1 = 0b00000001;
