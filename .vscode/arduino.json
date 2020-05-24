@@ -1,5 +1,5 @@
 {
-    "sketch": "vfd.ino",
+    "sketch": "vfd\\vfd.ino",
     "board": "arduino:avr:uno",
     "output": "../build",
     "programmer": "ArduinoISP"
